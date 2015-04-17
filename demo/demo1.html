@@ -1,0 +1,57 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="demo1.css">
+    <style>
+      body {
+        background-color: #ababab;
+      }
+
+      .page {
+        background-color: #ff000f;
+        padding: 1rem;
+      }
+      .region-header {
+        background-color: #feff00;
+        padding: 3em 10em;
+        margin-bottom: 1em;
+      }
+      .region-content {
+        background-color: #09ff00;
+        padding: 10em;
+      }
+      .block-1 {
+        background-color: #004cff;
+        padding: 5em;
+        margin-bottom: 1em;
+      }
+      .block-2 {
+        background-color: #ff9400;
+        padding: 5em;
+        margin-bottom: 1em;
+      }
+
+      .clearfix:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="page clearfix">
+      <div class="region-header clearfix">
+        Header
+      </div>
+      <div class="container-main">
+        <div class="region-content clearfix">
+          Content
+        </div>
+        <div class="region-sidebar">
+          <div class="block block-1">Block 1</div>
+          <div class="block block-2">Block 2</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
